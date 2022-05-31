@@ -1,0 +1,25 @@
+footer{
+    padding: 1rem 0;
+    background-color: black;
+    color: #fff;
+  }
+  footer h2{
+    color: #fff;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  footer li{
+    list-style: none;
+    font-size: 1.5 rem;
+    font-weight: lighter;
+    color: #fff;
+    margin: 1rem 0;
+  }
+  footer li:hover{
+    color:var(--primary-color);
+  }
+  
+  
+  footer .fontawesome-style{
+    font-size: 1.5rem;
+  }

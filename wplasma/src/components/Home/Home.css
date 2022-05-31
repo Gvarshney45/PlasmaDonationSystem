@@ -1,0 +1,182 @@
+.main{
+    /* background-image: linear-gradient(180deg,rgba(0,32,114,0.55) 0%,#002072 100%); */
+    /* position: relative; */
+    /* z-index: -5; */
+}
+.hero-part{
+  background-color:rgb(120, 219, 239);
+  /* border:5px solid rgb(163, 157, 157); */
+  border-radius: 20px;
+  box-shadow:0px 15px 28px -9px rgb(0 0 0 / 30%);
+  width:102em;
+  margin-left:43px;
+  margin-top:20px;
+  height:40em;
+}
+.hero-section {
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:rgba(58, 86, 246, 0.548); */
+  }
+  .hero-section p {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+.part2{
+    font-size: 1.5rem;
+    /* border-radius:10px 15px; */
+    margin-top: 50px;
+    text-align: justify;
+
+}
+.quote{
+    margin-left:22%;
+    margin-top:10px;
+    width:60%;
+    /* background-color:cornflowerblue; */
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    border:2px solid black;
+    border-radius:10px 15px;
+    font-weight:bold;
+    color:rgb(8, 15, 21);
+    background-color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.covid{
+  background-color:ghostwhite;
+  margin-top:20px;
+  border:1px solid transparent;
+  box-shadow:0px 15px 28px -9px rgb(0 0 0 / 30%);
+  
+}
+.Covid2{
+  text-align:center;
+}
+
+.Donate{
+    text-align: center;
+    font-size:1.5rem;
+    color:rgb(62, 62, 61);
+    border:2px solid white;
+    margin-top:20px;
+    border-radius: 20px 15px;
+}
+
+
+.cardmain{
+  border:5px solid black;
+  /* height:100%; */
+}
+.card{
+  border: 10px solid black;
+}
+.Down-main{
+  /* border: 4px solid black; */
+  background-color:rgb(212, 249, 249);
+  height:15em;
+}
+.weDo{
+  /* border: 4px solid white; */
+  width:40em;
+  margin-left:50px;
+  /* position: relative; */
+  margin-top:15px;
+  color:rgb(22, 23, 24);
+}
+.head-do{
+  text-align:center;
+  font-size:3em;
+  font-family: mon;
+  color:rgb(3, 20, 58);
+}
+.Disc{
+  /* border: 4px solid white; */
+  width:40em;
+  margin-left:50em;
+  margin-top: -155px;
+  color:rgb(15, 15, 16);
+  
+}
+
+
+  @media (max-width: 1020px) {
+  
+    /* hero section  */
+  
+     .hero-part{
+       width:auto;
+       height:auto;
+       margin-right:2em;
+     }
+  } 
+  /* For Mobile */
+@media screen and (max-width: 640px) {
+  .main{
+    width:auto;
+    height: 50em;
+    border:1px solid black;
+    /* margin-right: 10px; */
+  }
+  .hero-part{
+    margin-left: 25px;
+    width:auto;
+    height:auto;
+    box-shadow:0px 1 28px -9px rgb(0 0 0 / 30%);
+
+    /* font-size:0.5em; */
+  }
+  .hero-section  {
+    font-size: 1rem;
+    /* width: 300px; */
+  } 
+  .Down-main{
+    width:auto;
+    height:auto;
+  }
+  
+  .weDo {
+    width:auto;
+  }
+  .Disc{
+    width:auto;
+    margin-top:50px;
+    margin-left:3em;
+  }
+  .DonateImg {
+    width:10em;
+  }
+  .quote{
+    font-size: 0.85rem;
+    width:auto;
+    margin-left:-2px;
+  }
+  .hero-section p{
+    font-size:25px;
+    font-weight:bold;
+  }
+  .hero-section h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+   .part2{
+     text-align:justify ;
+    font-size:15px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-weight: 400;
+    
+    color: black;
+  }
+}

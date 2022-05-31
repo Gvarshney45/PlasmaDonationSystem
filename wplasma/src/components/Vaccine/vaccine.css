@@ -1,0 +1,103 @@
+.main2{
+  width:100%;
+  background-color:rgb(42, 46, 46);
+}
+
+.main1{
+    background-image: linear-gradient(180deg,rgb(93, 158, 158)  0%,#616f93 100%);
+}
+/* .vaccine {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(25, 24, 24);
+  } */
+ 
+.heading
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+   
+}
+.field {
+    width: 30%;
+    height: 56px;
+    border:none;
+    box-shadow: 10px black;
+    border-radius: 10px;
+    padding-left: 3rem;
+    position: relative;
+    background-color: rgba(240, 235, 235, 0.929);
+    margin: 10px;
+    margin-left:20em;;
+    transition: 0.3s all;
+    font-size: 25px;
+  }
+.Tname
+{
+    font-weight: bold;
+    color:black;
+    text-align: left;
+    font-size: 19px;
+}
+  .field:hover {
+    background-color: rgba(191, 187, 187, 0.45);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+
+.vaccines {
+    display: flex;
+    flex-wrap: wrap ;
+  }
+  
+  .vaccine {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 4px solid rgb(223, 204, 204);
+    display: flex;
+    flex-direction: column;
+    height:57vh;
+    /* background-image: linear-gradient(180deg,rgba(179, 191, 237, 0.55) 0%,#e8e2e1 100%); */
+    background: linear-gradient(to right, #428d99, #6b6b83, #724e5a) !important;
+    /* background: linear-gradient(rgb(75, 71, 71), rgb(158, 156, 156));; */
+    border-radius: 20px 35px 25px;
+    /* box-shadow:5px 5px 2px 2px;  */
+    box-shadow:0px 50px 28px -9px rgb(0 0 0 / 30%);
+    padding: 10px;
+    margin: 20px;
+    margin-left: 65px;
+    color: black;
+    width: 27%;
+
+  }
+  .vaccine:hover{
+    box-shadow:5px 5px 1px 1px rgba(233, 234, 238, 0.5);
+    cursor: pointer;
+  }
+  
+  /* .vaccine .h1 {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    opacity: 0.7;
+    color: black;
+    
+  }
+  
+  .vaccine .h1 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: black;
+  }
+   */
+  .details {
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
